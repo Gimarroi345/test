@@ -44,7 +44,7 @@ def main():
             authenticate_user(username, password)
 
         elif choice == "3":
-            print("До свидания!")
+            print("До связи!")
             break
         else:
             print("Неверный выбор.")
