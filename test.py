@@ -31,7 +31,7 @@ def authenticate_user(username: str, password: str) -> bool:
 def main():
     while True:
         print("\n1. Зарегистрироваться\n2. Войти\n3. Выход")
-        choice = input("Выберите действие: ")
+        choice = input("Выберите действи: ")
 
         if choice == "1":
             username = input("Введите имя пользователя: ")
